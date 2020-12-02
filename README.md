@@ -24,7 +24,8 @@ This script won't work with any previous versions of Ubuntu/Pop-Os because they 
 # Installation Steps (Ubuntu) 
 * Step 1: Install libglib2.0-dev-bin using `sudo apt-get install libglib2.0-dev-bin`
 * Step 2: clone the repo using `WGET` or `git clone`:
-`wget https://github.com/mastersubhajit/change-gdm3-background/tree/master/change-gdm3-background.sh`
+`git clone https://github.com/mastersubhajit/change-gdm3-background`
+* Step 3: `cd change-gdm3-background`
 * Step 3: make it executable using `sudo chmod +x change-gdm3-background.sh`
 
 ## Usage (Ubuntu)
@@ -36,8 +37,9 @@ You can always restore your original gdm theme any time with `sudo ./change-gdm3
 
 # Installation Steps (Arch)
 * Step 1: Install glib2 for Arch using `Sudo pacman -S glib2`
-* Step 2: `wget https://github.com/mastersubhajit/change-gdm3-background/tree/master/arch-change-gdm3-background`
-* Step 3: `chmod +x arch-change-gdm-background`
+* Step 2: `git clone https://github.com/mastersubhajit/change-gdm3-background`
+* step 3: `cd change-gdm3-background`
+* Step 4: `chmod +x arch-change-gdm-background`
 
 ## Usage (Arch)
 * Run the script with root privileges such as `sudo ./arch-change-gdm-background /path/to/image`.
